@@ -223,7 +223,7 @@ bin:
 	hack/build.sh
 
 image:
-	docker build -t openshift.io/ptp-operator -f Dockerfile.rhel7 .
+	docker build -t openshift.io/ptp-operator -f Dockerfile .
 
 clean:
 	rm -rf build/_output/bin/ptp-operator
@@ -239,3 +239,10 @@ buildtest:
 	cp ./test/conformance/conformance.test ./bin/testptp
 buildimage: buildtest
 	./scripts/image.sh
+
+daemon:
+	./hack/build-daemon.sh
+daemon-image:
+	./hack/build-daemon-image.sh
+clean-daemon:
+	./hack/cleanup.sh
