@@ -2,7 +2,8 @@
 ## Sponsors
 - Joseph Richard <joseph.richard@redhat.com>
 - Aneesh Puttur <aputtur@redhat.com>
-- John Doe <jdoe@intel.com> # Update with intel co-sponsor
+- Kevin Clarke <kevin.clarke@intel.com>
+- Eoghan Russell <eoghan.russell@intel.com>
 ## Background
 The Precision Time Protocol (PTP) is a protocol used to synchronize clocks in a network. When used in conjunction with hardware support, PTP is capable of sub-microsecond accuracy, which is far better than is normally obtainable with NTP. PTP support is divided between the kernel and user space. The Linux kernel now includes support for PTP clocks, which are provided by network drivers. The actual implementation of the protocol is known as linuxptp, a PTPv2 implementation according to the IEEE standard 1588 for Linux.
 ## Existing project
@@ -51,4 +52,5 @@ Better capability for hardware manufacturers to deliver device-specific function
 ## Maintainers
 * Joseph Richard <joseph.richard@redhat.com>
 * Aneesh Puttur <aputtur@redhat.com>
-* John Doe <jdoe@intel.com>
+* Kevin Clarke <kevin.clarke@intel.com>
+* Eoghan Russell <eoghan.russell@intel.com>
