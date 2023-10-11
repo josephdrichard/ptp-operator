@@ -254,7 +254,7 @@ daemon-image:
 	./hack/build-daemon-image.sh
 
 daemon-push:
-	docker push ghcr.io/k8snetworkplumbingwg/linuxptp-daemon:latest
+	docker push ghcr.io/josephdrichard/linuxptp-daemon:latest
 
 leapfile:
 	wget https://www.ietf.org/timezones/data/leap-seconds.list -O ./extra/leap-seconds.list
