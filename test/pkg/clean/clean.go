@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/openshift/ptp-operator/test/pkg"
-	"github.com/openshift/ptp-operator/test/pkg/client"
+	"github.com/josephdrichard/ptp-operator/test/pkg"
+	"github.com/josephdrichard/ptp-operator/test/pkg/client"
 	"github.com/sirupsen/logrus"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

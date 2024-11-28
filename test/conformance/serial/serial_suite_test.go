@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openshift/ptp-operator/test/pkg/clean"
-	testclient "github.com/openshift/ptp-operator/test/pkg/client"
-	"github.com/openshift/ptp-operator/test/pkg/logging"
-	"github.com/openshift/ptp-operator/test/pkg/testconfig"
+	"github.com/josephdrichard/ptp-operator/test/pkg/clean"
+	testclient "github.com/josephdrichard/ptp-operator/test/pkg/client"
+	"github.com/josephdrichard/ptp-operator/test/pkg/logging"
+	"github.com/josephdrichard/ptp-operator/test/pkg/testconfig"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

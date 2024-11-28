@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/onsi/gomega"
-	"github.com/openshift/ptp-operator/test/pkg"
-	"github.com/openshift/ptp-operator/test/pkg/client"
-	testclient "github.com/openshift/ptp-operator/test/pkg/client"
+	"github.com/josephdrichard/ptp-operator/test/pkg"
+	"github.com/josephdrichard/ptp-operator/test/pkg/client"
+	testclient "github.com/josephdrichard/ptp-operator/test/pkg/client"
 
-	"github.com/openshift/ptp-operator/test/pkg/images"
+	"github.com/josephdrichard/ptp-operator/test/pkg/images"
 
 	"github.com/sirupsen/logrus"
 	corev1 "k8s.io/api/core/v1"

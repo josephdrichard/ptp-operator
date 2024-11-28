@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	ptpv1 "github.com/openshift/ptp-operator/api/v1"
-	"github.com/openshift/ptp-operator/test/pkg"
-	"github.com/openshift/ptp-operator/test/pkg/client"
-	"github.com/openshift/ptp-operator/test/pkg/pods"
+	ptpv1 "github.com/josephdrichard/ptp-operator/api/v1"
+	"github.com/josephdrichard/ptp-operator/test/pkg"
+	"github.com/josephdrichard/ptp-operator/test/pkg/client"
+	"github.com/josephdrichard/ptp-operator/test/pkg/pods"
 	"github.com/sirupsen/logrus"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

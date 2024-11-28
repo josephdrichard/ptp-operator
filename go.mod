@@ -1,4 +1,4 @@
-module github.com/openshift/ptp-operator
+module github.com/josephdrichard/ptp-operator
 
 go 1.22
 

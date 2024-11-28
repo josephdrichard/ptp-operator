@@ -2,7 +2,7 @@
 
 set -eu
 
-REPO=github.com/openshift/ptp-operator
+REPO=github.com/josephdrichard/ptp-operator
 WHAT=${WHAT:-manager}
 GOFLAGS=${GOFLAGS:-}
 GLDFLAGS=${GLDFLAGS:-}
